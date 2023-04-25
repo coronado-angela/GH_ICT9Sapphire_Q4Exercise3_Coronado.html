@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<title>cm to Feet Length Converter</title>
+<body bgcolor="#EFCFD4"><center><img src="https://i.pinimg.com/originals/54/0f/44/540f446bde0e667fb086b3870ae7ea39.png"width="90" heigh="80" allign="middle"></center>
+    <center><h5><i>Coronado, Angela Gwen</i></h5></center>
+    <center><h5><i>9 - Sapphire</i></h5></center>
+    <center><table border="3" cellpadding="12">
+<center>
+<h2>!! length converter !!</h2>
+<p>!! convert any value from cm to ft !!</p>
+
+<p>
+  <label>cm</label>
+  <input id="inputcm" type="number" placeholder="cm" oninput="LengthConverter(this.value)" onchange="LengthConverter(this.value)">
+</p>
+<p>Feet: <span id="outputFeet"></span></p>
+
+<script>
+function LengthConverter(valNum) {
+  document.getElementById("outputFeet").innerHTML=valNum*0.032808;
+}
+</script></center>
+</body>
+</html>
